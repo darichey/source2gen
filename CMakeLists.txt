@@ -40,8 +40,6 @@ if(NOT CMAKE_BUILD_TYPE STREQUAL "Debug" AND NOT CMAKE_BUILD_TYPE STREQUAL "Rele
     message(FATAL_ERROR "source2gen: Invalid value for CMAKE_BUILD_TYPE: ${CMAKE_BUILD_TYPE}")
 endif()
 
-find_package(argparse REQUIRED)
-
 set(SOURCE2GEN_SUPPORTED_GAMES
     CS2
     DOTA2

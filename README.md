@@ -136,7 +136,7 @@ conan build -o "game=CS2" --build=missing .
 
 ```bash
 LD_LIBRARY_PATH=$HOME/.steam/steam/steamapps/cs2/game/bin/linuxsteamrt64/:$HOME/.steam/steam/steamapps/cs2/game/csgo/bin/linuxsteamrt64/ \
-  ./build/Release/bin/source2gen-test
+  ./build/bin/Release/source2gen-test
 ```
 
 On Linux, there are tests to check if the generated SDK can be compiled
